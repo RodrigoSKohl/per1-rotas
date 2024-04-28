@@ -3,12 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-modulo1',
   standalone: true,
   imports: [RouterOutlet, RouterLink],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  templateUrl: './modulo1.component.html',
+  styleUrl: './modulo1.component.css'
 })
-export class AppComponent {
-  title = 'per1-rotas';
+export class Modulo1Component {
+
 }
